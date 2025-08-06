@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic-Tac-Toe Game</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-warning-subtle text-center">
+
+  <!-- Winner Message -->
+  <div id="msg-container" class="d-none vh-100 d-flex flex-column justify-content-center align-items-center gap-5">
+    <p id="msg" class="fs-1 text-dark">Winner</p>
+    <button id="new-btn" class="btn btn-dark px-4 py-2 fs-5 rounded-4">New Game</button>
+  </div>
+
+  <!-- Game Content -->
+  <main>
+    <h1 class="my-4">Tic Tac Toe</h1>
+
+    <!-- Game Grid -->
+    <div class="d-flex justify-content-center align-items-center" style="height: 70vh;">
+      <div id="game-board" class="d-flex flex-wrap justify-content-center align-items-center" style="height: 60vmin; width: 60vmin; gap: 1.5vmin;">
+        <!-- 9 boxes -->
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+        <button class="box btn" style="height: 18vmin; width: 18vmin; border-radius: 1rem; font-size: 8vmin; background-color: #ffffc7; box-shadow: 0 0 1rem rgba(0,0,0,0.3);"></button>
+      </div>
+    </div>
+
+    <!-- Reset Button -->
+    <button id="reset-btn" class="btn btn-dark my-4 px-4 py-2 fs-5 rounded-4">Reset Game</button>
+  </main>
+
+  <!-- JavaScript Placeholder -->
+  <script src="tictactoe.js">
+  </script>
+</body>
+</html>
