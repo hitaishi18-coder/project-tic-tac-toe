@@ -34,5 +34,5 @@ Depending on your implementation, here's a base example:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/hitaishi18-coder/tic-tac-toe.git
 cd tic-tac-toe
